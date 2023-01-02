@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="נתנאל רזניק"
+        android:textSize="25dp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+        android:hint="number"
+        android:paddingBottom="30dp"
+        android:id="@+id/tvNumber"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Generate Random"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/btnGenRan"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:id="@+id/btnOk"/>
+
+</LinearLayout>
